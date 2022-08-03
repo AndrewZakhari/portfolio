@@ -25,6 +25,7 @@
   margin-top: 5vh;
   gap: 2.5vh;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -33,6 +34,7 @@
 .FrontEndProjects{
   margin-top: 10vh;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column; 
   align-items: center;
   justify-content: space-between;
@@ -41,16 +43,19 @@
   margin-top: 10vh;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
 .certificaionImages{
   display: flex;
+  flex-wrap: wrap;
   gap: 4vw;
 }
 
 .FrontEndProjectImages{
   display: flex;
+  flex-wrap: wrap;
   gap: 4vw;
 }
 .image{

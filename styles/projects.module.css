@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    background-image: url(/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+    color: white;
+    justify-content: center;
+    gap: 4vw;
+    flex-wrap: wrap;
+}
+.imageWrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.5vh;
+    max-width: 90vw;
+}
+.image{
+  box-sizing: content-box ;
+  box-shadow: 5px 5px 5px #eeedf0;
+  color: #eeedf0;
+  
+}
+.image:hover{
+    animation-name: move;
+    animation-duration: 1s;
+    transform: scale(1.1,1.1)
+}
+@keyframes move{
+  0%{
+    transform: scale(1, 1);
+  
+  }
+  100%{
+    transform: scale(1.1,1.1)
+  }
+}

@@ -21,8 +21,8 @@ export default function Home() {
       <p className={styles.projectName}>Password Manager</p>
       <div className={styles.image}>
         <Link href="https://password-manager-phi.vercel.app">
-          <a>
-    <Image alt='Password manager project' src="/password-manager.jpg" width='400px' height='250px'/>
+          <a target="_blank">
+    <Image priority alt='Password manager project' src="/password-manager.jpg" width='400px' height='250px'/>
     </a>
     </Link>
     </div>
@@ -36,8 +36,8 @@ export default function Home() {
       <p className={styles.projectName}>Random Quote Machine</p>  
       <div className={styles.image}>
         <Link href="https://certfictaion-project1.herokuapp.com/">
-          <a>
-            <Image alt="Random Quote Machine" src="/quote-machine.jpg" width='400px' height="250px"/>
+          <a target="_blank">
+            <Image priority alt="Random Quote Machine" src="/quote-machine.jpg" width='400px' height="250px"/>
           </a>
         </Link>
       </div>
@@ -46,8 +46,8 @@ export default function Home() {
       <p className={styles.projectName}>Markdown Previewer</p>
       <div className={styles.image}>
         <Link href="https://certificate-project2.herokuapp.com/">
-          <a>
-            <Image alt="Markdown Previewer" src="/markdown-previewer.jpg" width="400px" height="250px"/>
+          <a target="_blank">
+            <Image priority alt="Markdown Previewer" src="/markdown-previewer.jpg" width="400px" height="250px"/>
           </a>
         </Link>
       </div>
@@ -56,8 +56,8 @@ export default function Home() {
         <p className={styles.projectName}>25 + 5 Clock</p>
         <div className={styles.image}>
           <Link href="https://certification-project5.herokuapp.com/">
-            <a>
-              <Image alt="25 + 5 Clock"  src="/clock.jpg" width="400px" height="250px" />
+            <a target="_blank">
+              <Image priority alt="25 + 5 Clock"  src="/clock.jpg" width="400px" height="250px" />
             </a>
           </Link>
         </div>
@@ -71,7 +71,7 @@ export default function Home() {
         <p className={styles.projectName}>Front End Certification From FreeCodeCamp</p>
         <div className={styles.image}>
         <Link href="https://www.freecodecamp.org/certification/Andrew-A/front-end-development-libraries">
-          <a>
+          <a target="_blank">
             <Image  alt="Front-end certification image" src="/front-end-certification.jpg" width="400px" height="250px"/>
           </a>
         </Link>
@@ -81,7 +81,7 @@ export default function Home() {
         <p className={styles.projectName}>Back End Certification From FreeCodeCamp</p>
         <div className={styles.image}>
           <Link href="https://www.freecodecamp.org/certification/Andrew-A/back-end-development-and-apis">
-            <a>
+            <a target="_blank">
               <Image alt="Back-end certification image" src="/back-end-certification.jpg" width="400px" height="250px"/>
             </a>
           </Link>

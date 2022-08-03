@@ -1,19 +1,19 @@
 import Navbar from "../components/navbar";
+import styles from '../styles/certifications.module.css';
 import Image from "next/image";
 import Link from "next/link";
-import styles from "../styles/projects.module.css"
 
-export default function Projects() {
+export default function Certifications() {
     return (
         <>
         <Navbar />
         <div className={styles.container}>
             <div className={styles.imageWrapper}>
-                <label>Digital Agency Project</label>
+                <label>Front End Certificaton</label>
                 <div className={styles.image}>
-                    <Link href="https://agency-project-psi.vercel.app/">
+                    <Link href="https://www.freecodecamp.org/certification/Andrew-A/front-end-development-libraries">
                     <a target='_blank'>
-        <Image src="/agency.jpg" width="400px" height="250px"/>
+        <Image src="/front-end-certification.jpg" width="400px" height="250px"/>
         </a>
         </Link>
         </div>
@@ -21,9 +21,9 @@ export default function Projects() {
         <div className={styles.imageWrapper}>
             <label>Password Manager Project</label>
             <div className={styles.image}>
-                <Link href="https://password-manager-phi.vercel.app">
+                <Link href="https://www.freecodecamp.org/certification/Andrew-A/back-end-development-and-apis">
                 <a target="_blank">
-        <Image src="/password-manager.jpg" width="400px" height="250px"/>
+        <Image src="/back-end-certification.jpg" width="400px" height="250px"/>
         </a>
         </Link>
         </div>
@@ -31,9 +31,9 @@ export default function Projects() {
         <div className={styles.imageWrapper}>
             <label>25 + 5 Clock</label>
             <div className={styles.image}>
-                <Link href="https://certification-project5.herokuapp.com/">
+                <Link href="https://www.freecodecamp.org/certification/Andrew-A/javascript-algorithms-and-data-structures">
                 <a target="_blank">
-        <Image src="/clock.jpg" width="400px" height="250px"/>
+        <Image src="/javascript-certification.jpg" width="400px" height="250px"/>
         </a>
         </Link>
         </div>
@@ -41,24 +41,15 @@ export default function Projects() {
         <div className={styles.imageWrapper}>
             <label>Markdown Previewer</label>
             <div className={styles.image}>
-                <Link href="https://certificate-project2.herokuapp.com/">
+                <Link href="https://www.freecodecamp.org/certification/Andrew-A/responsive-web-design">
                 <a target="_blank">
-        <Image src="/markdown-previewer.jpg" width="400px" height="250px"/>
-        </a>
-        </Link>
-        </div>
-        </div>
-        <div className={styles.imageWrapper}>
-            <label>Random Quote Machine</label>
-            <div className={styles.image}>
-                <Link href="https://certfictaion-project1.herokuapp.com">
-                <a target="_blank">
-        <Image src="/quote-machine.jpg" width="400px" height="250px"/>
+        <Image src="/responsive-web-design.jpg" width="400px" height="250px"/>
         </a>
         </Link>
         </div>
         </div>
         </div>
         </>
+         
     )
 }
