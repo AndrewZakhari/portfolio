@@ -13,8 +13,6 @@ export default function Navbar() {
 
     const {data , error } = useSwr('/api/hello', fetcher)
 
-    if(error) return <div>Failed to Load</div>
-    if(!data) return <div>Loading...</div>
 
     if(typeof window !== 'undefined'){
     let width = (window.innerWidth > 0) ? window.innerWidth : screen.width
