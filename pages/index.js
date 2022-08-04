@@ -57,7 +57,7 @@ export default function Home() {
         <div className={styles.image}>
           <Link href="https://certification-project5.herokuapp.com/">
             <a target="_blank">
-              <Image priority alt="25 + 5 Clock"  src="/clock.jpg" width="400px" height="250px" />
+              <Image  priority alt="25 + 5 Clock"  src="/clock.jpg" width="400px" height="250px" />
             </a>
           </Link>
         </div>
@@ -82,7 +82,7 @@ export default function Home() {
         <div className={styles.image}>
           <Link href="https://www.freecodecamp.org/certification/Andrew-A/back-end-development-and-apis">
             <a target="_blank">
-              <Image alt="Back-end certification image" src="/back-end-certification.jpg" width="400px" height="250px"/>
+              <Image  alt="Back-end certification image" src="/back-end-certification.jpg" width="400px" height="250px"/>
             </a>
           </Link>
         </div>

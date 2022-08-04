@@ -24,13 +24,13 @@ export default function Navbar() {
     return (
         <>
         <div className={styles.container}>
-        <Link href="https://twitter.com/ZakhariAndrew"><a target="_blank"><Image src="/twitter.png" width="20px" height="20px"/></a></Link>
+        <Link href="https://twitter.com/ZakhariAndrew"><a target="_blank"><Image alt="" src="/twitter.png" width="20px" height="20px"/></a></Link>
         <Link href="/"><a className={styles.navbarLink}>Home</a></Link> 
         <Link href="/projects"><a className={styles.navbarLink}>Projects</a></Link>  
         <Link href="/certifications"><a className={styles.navbarLink}>Certifications</a></Link>
         <Link href="/contact"><a className={styles.navbarLink}>Get in touch</a></Link>
         <Link href="/about"><a className={styles.navbarLink}>About me</a></Link>
-        <Link href="https://github.com/AndrewZakhari"><a target="_blank"><Image src="/github.png" width="20px" height="20px"/></a></Link>
+        <Link href="https://github.com/AndrewZakhari"><a target="_blank"><Image alt="" src="/github.png" width="20px" height="20px"/></a></Link>
         </div>
         </>
     )
@@ -38,20 +38,20 @@ export default function Navbar() {
         if(!opened){
         return (
         <div className={styles.mobileContainer0}>
-            <a onClick={() => setOpen(true)}><Image src="/menu.png" width="20px" height="20px"/></a>
+            <a onClick={() => setOpen(true)}><Image alt="" src="/menu.png" width="20px" height="20px"/></a>
         </div>
         )
     }else if(opened){
         return (
             <div className={styles.mobileContainer1}>
-               <a onClick={() => setOpen(false)}> <Image src="/menu.png" width="20px" height="20px"/></a>
+               <a onClick={() => setOpen(false)}> <Image alt="" src="/menu.png" width="20px" height="20px"/></a>
                 <Link href="https://twitter.com/ZakhariAndrew"><a target="_blank"><Image src="/twitter.png" width="20px" height="20px"/></a></Link>
                 <Link href="/"><a className={styles.navbarLink}>Home</a></Link> 
                 <Link href="/projects"><a className={styles.navbarLink}>Projects</a></Link>  
                 <Link href="/certifications"><a className={styles.navbarLink}>Certifications</a></Link>
                 <Link href="/contact"><a className={styles.navbarLink}>Get in touch</a></Link>
                 <Link href="/about"><a className={styles.navbarLink}>About me</a></Link>
-                <Link href="https://github.com/AndrewZakhari"><a target="_blank"><Image src="/github.png" width="20px" height="20px"/></a></Link>
+                <Link href="https://github.com/AndrewZakhari"><a target="_blank"><Image alt="" src="/github.png" width="20px" height="20px"/></a></Link>
             </div>
         )
     }

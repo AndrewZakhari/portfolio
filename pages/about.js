@@ -9,7 +9,7 @@ export default function About() {
         <Navbar /> 
         <div className={styles.container}>
             <div className={styles.about}>
-                <p className={styles.p}>Hi , I'm a Freelance Full Stack Web Developer,
+                <p className={styles.p}>Hi , I am a Freelance Full Stack Web Developer,
                 <br />
                  Mostly i work with Next.js using its power to create API endpoints, <br />
                 Front-end templates with React and for integration with a database i use MongoDB.<br />

@@ -19,10 +19,10 @@ export default function Contact() {
                     </Link>
                 
                 Visit me on <Link href="https://github.com/AndrewZakhari"><a className={styles.link}>
-                    Github <Image src='/github.png' width="30px" height="30px"/></a></Link>
+                    Github <Image alt="" src='/github.png' width="30px" height="30px"/></a></Link>
 
                 Visit me on <Link href="https://twitter.com/ZakhariAndrew"><a className={styles.link}>
-                    Twitter <Image src="/twitter.png" width="30px" height="30px"/></a></Link>
+                    Twitter <Image alt="" src="/twitter.png" width="30px" height="30px"/></a></Link>
                 </p>
             </div>
         </div>
