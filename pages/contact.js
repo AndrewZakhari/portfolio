@@ -13,7 +13,10 @@ export default function Contact() {
             <div className={styles.about}>
                 <h1>Contact Info</h1>
                 <p className={styles.p}>
-                Email: <Link className={styles.link} href="mailto:andrewzakhari5@gmail.com" ><a className={styles.link}>andrewzakhari5@gmail</a></Link>
+                Email: <Link className={styles.link} href="mailto:andrewzakhari5@gmail.com" >
+                    <a className={styles.link}>
+                    andrewzakhari5@gmail.com</a>
+                    </Link>
                 
                 Visit me on <Link href="https://github.com/AndrewZakhari"><a className={styles.link}>
                     Github <Image src='/github.png' width="30px" height="30px"/></a></Link>

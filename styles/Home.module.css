@@ -9,9 +9,9 @@
 .firstName{
   display: flex;
   color: #6c72cb;
-  padding-top: 50px;
+  padding-top: 10vw;
   font-family: 'Rubik' sans-serif;
-  font-size: 5vw;
+  font-size: 7vw;
   justify-content: center; 
   gap: 2.5vw; 
    background: linear-gradient(to bottom right, #6c72cb, #cb69c1);
