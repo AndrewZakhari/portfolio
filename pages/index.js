@@ -16,8 +16,8 @@ export default function Home() {
     <div className={styles.firstName}>Andrew <span className={styles.lastName}>Zakhari</span></div>
     <div className={styles.imageWrapper}>
       <label className={styles.label}>Full Stack Projects</label>
-
-      <>
+    <div className={styles.FullStackProjectImages}>
+      <div>
       <p className={styles.projectName}>Password Manager</p>
       <div className={styles.image}>
         <Link href="https://password-manager-phi.vercel.app">
@@ -26,8 +26,20 @@ export default function Home() {
     </a>
     </Link>
     </div>
-    </>
     </div>
+    <div>
+      <p className={styles.projectName}>Digital Agency </p>
+      <div className={styles.image}>
+        <Link href="https://agency-project-psi.vercel.app/">
+          <a target="_blank">
+    <Image priority alt='Digital Agency Project' src="/agency.jpg" width='400px' height='250px'/>
+    </a>
+    </Link>
+    </div>
+    </div>
+    </div>
+    </div>
+  
     <div className={styles.FrontEndProjects}>
       <label className={styles.label}>Front End Projects</label>
 
