@@ -44,16 +44,16 @@ export default function Home() {
       <label className={styles.label}>Front End Projects</label>
 
       <div className={styles.FrontEndProjectImages}>
-        <div>
-      <p className={styles.projectName}>Random Quote Machine</p>  
-      <div className={styles.image}>
-        <Link href="https://certfictaion-project1.herokuapp.com/">
-          <a target="_blank">
-            <Image priority alt="Random Quote Machine" src="/quote-machine.jpg" width='400px' height="250px"/>
-          </a>
+       <div >
+            <p className={styles.projectName}>Javascript Calculator</p>
+            <div className={styles.image}>
+                <Link href="https://certification-project4.herokuapp.com/">
+                <a target="_blank">
+        <Image priority alt="Javascript Calculator" src="/calculator.jpg" width="400px" height="250px"/>
+        </a>
         </Link>
-      </div>
-      </div>
+        </div>
+        </div>
       <div>
       <p className={styles.projectName}>Markdown Previewer</p>
       <div className={styles.image}>

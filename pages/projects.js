@@ -51,9 +51,29 @@ export default function Projects() {
         <div className={styles.imageWrapper}>
             <label>Random Quote Machine</label>
             <div className={styles.image}>
-                <Link href="https://certfictaion-project1.herokuapp.com">
+                <Link href="https://certfictaion-project1.herokuapp.com/">
                 <a target="_blank">
         <Image src="/quote-machine.jpg" width="400px" height="250px"/>
+        </a>
+        </Link>
+        </div>
+        </div>
+        <div className={styles.imageWrapper}>
+            <label>Javascript Calculator</label>
+            <div className={styles.image}>
+                <Link href="https://certification-project4.herokuapp.com/">
+                <a target="_blank">
+        <Image src="/calculator.jpg" width="400px" height="250px"/>
+        </a>
+        </Link>
+        </div>
+        </div>
+        <div className={styles.imageWrapper}>
+            <label>Drum Machine</label>
+            <div className={styles.image}>
+                <Link href="https://certification-project3.herokuapp.com/">
+                <a target="_blank">
+        <Image src="/drum-machine.jpg" width="400px" height="250px"/>
         </a>
         </Link>
         </div>
