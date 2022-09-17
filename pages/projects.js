@@ -19,6 +19,16 @@ export default function Projects() {
         </div>
         </div>
         <div className={styles.imageWrapper}>
+                <label>Blogging Website</label>
+                <div className={styles.image}>
+                    <Link href="https://blogger-andrewzakhari.vercel.app/">
+                    <a target='_blank'>
+        <Image src="/blogger.jpg" width="400px" height="250px"/>
+        </a>
+        </Link>
+        </div>
+        </div>
+        <div className={styles.imageWrapper}>
             <label>Password Manager Project</label>
             <div className={styles.image}>
                 <Link href="https://password-manager-phi.vercel.app">

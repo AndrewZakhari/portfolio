@@ -18,6 +18,16 @@ export default function Home() {
       <label className={styles.label}>Full Stack Projects</label>
     <div className={styles.FullStackProjectImages}>
       <div>
+      <p className={styles.projectName}>Blogging Website</p>
+      <div className={styles.image}>
+        <Link href="https://blogger-andrewzakhari.vercel.app">
+          <a target="_blank">
+    <Image priority alt='Blogging Website' src="/blogger.jpg" width='400px' height='250px'/>
+    </a>
+    </Link>
+    </div>
+    </div>
+      <div>
       <p className={styles.projectName}>Password Manager</p>
       <div className={styles.image}>
         <Link href="https://password-manager-phi.vercel.app">
