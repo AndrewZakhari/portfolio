@@ -12,6 +12,18 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        primary: "terminal"
+      },
+      keyframes: {
+        loading: {
+          '0%': {}
+        }
+      },
+      skew:{
+        '80': "80deg",
+        '90': '90deg'
+      }
     },
   },
   plugins: [],
