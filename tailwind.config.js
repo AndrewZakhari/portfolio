@@ -17,12 +17,44 @@ module.exports = {
       },
       keyframes: {
         loading: {
-          '0%': {}
+          '0%': {
+            transform: 'translate(100%, 0px)'
+          },
+          "100%": {
+            transform: "translate(-100%, 0px)"
+          },
+        },
+        slideIn: {
+          "0%": {
+            transform: "scale(1, 1)",
+            opacity: "0"
+          },
+          '25%': {
+           
+            transform: "scale(1.1, 1)"
+          },
+          "75%": {
+            
+            transform: "scale(1.2, 1)"
+          },
+          "100%": {
+            transform: "scale(1, 1)",
+            opacity: "1"
+          }
         }
+      },
+      animation: {
+        loading : "loading 1.5s ease-in-out infinite",
+        slideIn1s: "slideIn  1s ease-in-out",
+        slideIn2s: "slideIn 2s ease-in-out " 
       },
       skew:{
         '80': "80deg",
         '90': '90deg'
+      },
+      borderRadius:{
+        'pacTop': "100px 100px 0 0",
+        'pacBottom': "0 0 100px 100px"
       }
     },
   },
