@@ -1,10 +1,15 @@
-import Image from "next/image"
+import { useInView } from "react-intersection-observer"
 
 const Skills = () => {
+    const {ref, inView }  = useInView()
+   
     return (
-        <div className="bg-black text-white text-3xl min-h-screen  border-b-2 border-green-500  font-primary flex flex-col items-center ">
-            <h1 className="text-5xl text-red-500 my-10 ">Skills</h1>
-            <div className="gap-12 flex flex-col ">
+        <>
+        <div ref={ref} className="bg-black text-white text-3xl min-h-screen  border-b-2 border-green-500  font-primary flex flex-col items-center ">
+            { inView &&
+                <>
+            <h1 className="text-5xl text-red-500 my-10 animate-fadeIn">Skills</h1>
+            <div className="gap-12 flex flex-col animate-slideIn2s">
                 <div className="flex justify-between lg:gap-12">
                     <h1>JavaScript <br/> / TypeScript</h1>         
                     <div className="lg:w-60 border border-green-500 h-fit flex justify-center bg-green-500 text-black">
@@ -62,8 +67,11 @@ const Skills = () => {
                 <div>
 
                 </div>
-            </div>
+            </div>            
+            </>
+}
         </div>
+        </>
     )
 }
 export default Skills

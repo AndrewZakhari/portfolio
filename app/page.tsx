@@ -1,4 +1,5 @@
 'use client'
+import Contact from '@/components/contact'
 import Header from '@/components/header'
 import Loading from '@/components/loading'
 import Projects from '@/components/projects'
@@ -15,6 +16,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Services />  
+      <Contact />
 
     </div>
   )
