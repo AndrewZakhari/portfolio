@@ -11,7 +11,7 @@ const Contact = () => {
               About & Contact Info
             </h1>
            <div className="border-green-500 border-2 animate-slideIn2s p-6 text-2xl ">
-            <p className="text-center">Hi, My name is Andrew , I'm a full stack web devoloper with a passion in learning new technologies <br/>
+            <p className="text-center">Hi, My name is Andrew , I&apos;m a full stack web devoloper with a passion in learning new technologies <br/>
             My Developing journey starts with designing the UI with the UX in mind then<br/>
              implementing the back-end if needed then the front-end and then testing the whole Web App<br/>
             To Contact me email me at: <Link className="text-yellow-300" target="_blank" href="mailto:andrewzakhari5@gmail.com">andrewzakhari5@gmail.com</Link><br/>
