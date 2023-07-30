@@ -47,11 +47,16 @@ module.exports = {
         fadeIn:{
           '0%': {opacity: "0"}, "100%": {opacity: '1'}
         },
+        slideInRev: {
+          '0%': {transform: "translate(-100%, 0px)", opacity: "0"},
+          '100%': {transform: "translate(0px, 0px)", opacity: "1"}
+        }
       },
       animation: {
         slideIn2s : "slideIn 2s ease-in-out ",
         slideIn3s: "slideIn 3s ease-in-out",
         slideIn1s: "slideIn 1s ease-in-out",
+        slideIn2sRev: "slideInRev 2s ease-in-out ",
         scale1s: "scale  1s ease-in-out",
         scale2s: "scale 2s ease-in-out ",
         fadeIn: "fadeIn 2s ease-in-out"
