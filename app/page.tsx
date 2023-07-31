@@ -10,7 +10,7 @@ import Skills from '@/components/skills'
 export default function Home() {
   
   return (
-    <div className='bg-black'>
+    <div className='bg-black w-screen overflow-x-hidden'>
       
       <Header />
       <Skills />

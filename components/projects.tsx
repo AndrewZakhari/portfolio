@@ -8,7 +8,7 @@ const Projects = () => {
 
     return (
         
-        <div ref={ref} className="min-h-screen  bg-black border-b-2 border-green-500">
+        <div ref={ref} className="lg:min-h-screen h-[1400px] bg-black border-b-2 border-green-500">
           { inView &&
           <>
         <h1 className="text-red-500 bg-black font-primary text-5xl text-center animate-fadeIn py-10">Projects</h1>

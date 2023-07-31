@@ -5,7 +5,7 @@ const Skills = () => {
    
     return (
         <>
-        <div ref={ref} className="bg-black text-white text-3xl min-h-screen  border-b-2 border-green-500  font-primary flex flex-col items-center ">
+        <div ref={ref} className="bg-black text-white text-3xl min-h-screen  border-y-2 border-green-500  font-primary flex flex-col items-center ">
             { inView &&
                 <>
             <h1 className="text-5xl text-red-500 my-10 animate-fadeIn">Skills</h1>
