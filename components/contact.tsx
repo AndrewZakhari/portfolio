@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer"
 const Contact = () => {
     const {ref, inView} = useInView()
     return (
-        <div ref={ref} className="font-primary text-white flex justify-center flex-col items-center  min-h-screen">
+        <div ref={ref} className="font-primary text-white flex justify-center border-b-2 border-green-500 flex-col items-center  min-h-screen">
             { inView &&
             <>
             <h1 className="text-5xl text-red-500 animate-fadeIn text-center py-10">

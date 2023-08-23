@@ -1,4 +1,5 @@
 'use client'
+import Cert from '@/components/cert'
 import Contact from '@/components/contact'
 import Header from '@/components/header'
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Projects />
       <Services />  
       <Contact />
+      <Cert />
 
     </div>
   )
