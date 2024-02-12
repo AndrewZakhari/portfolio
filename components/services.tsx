@@ -3,7 +3,8 @@ import { useInView } from "react-intersection-observer"
 const Services = () => {
     const {ref, inView} = useInView()
     return (
-        <div ref={ref} className="font-primary text-white -mt-80 pb-10  lg:mt-0 flex flex-col border-b-2 border-green-500 text-2xl lg:h-screen h-[1600px]">
+        <div ref={ref} className="font-primary text-white -mt-80 pb-10 lg:pb-10 lg:mt-0 flex flex-col border-b-2
+         border-green-500 text-2xl lg:h-full h-[1600px]">
             { inView &&
             <>
             <h1 className="text-red-500 text-center mt-96 animate-fadeIn lg:mt-0 py-10 text-5xl">Services</h1>
