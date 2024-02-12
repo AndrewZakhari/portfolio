@@ -62,7 +62,7 @@ const Projects = () => {
           <div className="flex flex-col gap-5 text-2xl lg:h-[470px] animate-slideIn1s items-center p-2 w-3/4 mb-20 lg:mb-10 lg:w-fit transition-all duration-500 lg:border-transparent border-green-500 hover:border-green-500 border-b-2  font-primary">
             <h1 className="text-3xl  text-yellow-300">IP Lookup</h1>
             <Image className="lg:pb-2 lg:h-[235px]" alt="" src="/ip-lookup.jpg" width="464" height="144"/>
-            <Link target="_blank" href="https://agency-project-psi.vercel.app/" className="text-md text-green-500 lg:no-underline underline hover:underline
+            <Link target="_blank" href="https://ip-lookup-self.vercel.app/" className="text-md text-green-500 lg:no-underline underline hover:underline
             transition-all hover:cursor-pointer ">Visit</Link>
             <p>A Webapp that helps you find information about <br/> a given IP Adress using a third party API</p>
           </div> 
