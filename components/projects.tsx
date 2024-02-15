@@ -18,7 +18,7 @@ const Projects = () => {
             
             <div  className="flex flex-col items-center  transition-all duration-500 gap-5 animate-slideIn2sRev
              border-green-500 w-3/4 lg:w-1/3  lg:border-transparent border-b-2  p-2 hover:border-green-500">
-            <h1 className="text-3xl text-yellow-300">IP LookUp</h1>
+            <h1 className="text-3xl text-yellow-300">3jeeeba</h1>
             <Image className="lg:pb-4 lg:h-[235px]" alt="" src='/3jeeba.jpg' width="464" height="144" />
               <Link target="_blank" href="https://3jeeeba.com" className="text-md text-green-500 hover:underline lg:no-underline underline
             transition-all hover:cursor-pointer ">Visit</Link>
@@ -51,7 +51,7 @@ const Projects = () => {
         }{ show &&
           <div className="flex flex-col justify-center  transition-all overflow-x-hidden">
           <h1 onClick={() => setShow(false)} className="font-primary text-center text-yellow-300 self-center text-3xl hover:cursor-pointer py-2.5 px-5 w-fit my-10 border-2 border-yellow-300 hover:bg-opacity-90 hover:text-black hover:bg-yellow-300">Show Less Projects</h1>
-          <div className="flex flex-row justify-around items-center ">          
+          <div className="flex lg:flex-row flex-col justify-around items-center ">          
           <div className="flex flex-col gap-5 text-2xl animate-slideIn1sRev lg:h-[470px] max-h-440px overflow-hidden  items-center p-2 w-3/4 mb-20 lg:mb-10 lg:w-fit transition-all duration-500 lg:border-transparent border-green-500 hover:border-green-500 border-b-2  font-primary">
             <h1 className="text-3xl  text-yellow-300">RELEVANT Digital Agency</h1>
             <Image className="lg:pb-2 lg:h-[235px]" alt="" src="/RELEVANT.jpg" width="464" height="144"/>
