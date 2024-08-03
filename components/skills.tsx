@@ -19,16 +19,16 @@ const Skills = () => {
                 <div className="flex justify-between lg:gap-12">
                     <h1>Next js</h1>
                     <div className="lg:w-60 border-2 border-green-500 h-fit w-52 flex text-black">
-                        <div className="lg:w-3/4 bg-green-500 w-3/4 flex justify-center">
-                        <p>Intermediate</p>
+                        <div className=" bg-green-500 w-full flex justify-center">
+                        <p>Expert</p>
                         </div>
                     </div>
                 </div>
                 <div className="flex justify-between lg:gap-12">
                     <h1>React</h1>
                     <div className="lg:w-60 border-2 border-green-500 w-52 h-fit flex text-black">
-                        <div className="lg:w-3/4 bg-green-500 w-3/4 flex justify-center">
-                        <p>Intermediate</p>
+                        <div className=" bg-green-500 w-full flex justify-center">
+                        <p>Expert</p>
                         </div>
                     </div>
                 </div>
