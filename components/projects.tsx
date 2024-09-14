@@ -30,7 +30,7 @@ const Projects = () => {
             <Image className="lg:pb-4 lg:h-[235px]" alt="" src='/3jeeba.jpg' width="464" height="144" />
               <Link target="_blank" href="https://3jeeeba.com" className="text-md text-green-500 hover:underline lg:no-underline underline
             transition-all hover:cursor-pointer ">Visit</Link>
-          <p className="text-center">My latest work,<br/> A Webapp for selling Pens, Pencils and Notes. </p>
+          <p className="text-center">My latest work,<br/> A Webapp for selling Pens, Pencils and Notes utilizing Shopify&apos;s BackEnd and Liquid for the FrontEnd</p>
             </div>
             <div className="flex w-full md:w-1/3 flex-col items-center tranistion-all border-opacity-50 duration-500 gap-5 animate-fadeIn
              border-green-500 lg:w-1/3 lg:border-transparent border-b-2 py-5 lg:p-2 hover:border-green-500">
@@ -46,7 +46,7 @@ const Projects = () => {
             <Image className="lg:pb-2 lg:h-[235px]" alt="" src="/RELEVANT.jpg" width="464" height="144"/>
             <Link target="_blank" href="https://agency-project-psi.vercel.app/" className="text-md text-green-500 lg:no-underline underline hover:underline
             transition-all hover:cursor-pointer ">Visit</Link>
-            <p className="text-center">A Responsive Digital Agency Website<br/> focused on my front-end skills done in 2021</p>
+            <p className="text-center">A Responsive Digital Agency Website<br/> focused on my front-end skills </p>
           </div>
         </div>
         { !show &&
@@ -66,7 +66,7 @@ const Projects = () => {
             <Image className="lg:pb-4 lg:h-[235px]" alt="" src="/BMW.jpg" width="464" height="144"/>
             <Link target="_blank" href="https://car-landing-page-flax.vercel.app/" className="text-md text-green-500 lg:no-underline underline hover:underline
             transition-all hover:cursor-pointer ">Visit</Link>
-            <p className="text-center">A Responsive BMW&apos;s Website clone with some edits to the UI </p>
+            <p className="text-center">A Responsive BMW Website clone with some edits to the UI </p>
             </div> 
           <div className="flex flex-col  gap-5 text-2xl lg:h-[470px] animate-slideIn1s items-center py-5 lg:p-2 w-full md:w-fit
             mb-20 lg:mb-10 lg:w-fit transition-all duration-500 lg:border-transparent border-green-500 hover:border-green-500 border-b-2 border-opacity-50  font-primary">
