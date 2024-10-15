@@ -21,8 +21,8 @@ const Contact = () => {
             To Contact me email me at:
              <Link className="text-yellow-300" target="_blank" href="mailto:andrewzakhari5@gmail.com">andrewzakhari5@gmail.com</Link>
              <br/>
-            or DM me at 
-            <Link target="_blank" className="text-yellow-300" href="https://wa.me/+201019303179">Whatsapp </Link>
+            or DM me at  
+            <Link target="_blank" className="text-yellow-300" href="https://wa.me/+201019303179"> Whatsapp </Link>
             <Link target="_blank" className="text-yellow-300" href="https://www.linkedin.com/in/andrewzakhari">LinkedIn</Link>
 
            </p>
