@@ -87,7 +87,7 @@ const Projects = () => {
             <Link target="_blank" href="https://3ajeeeba.com" className="text-md text-red-500 lg:no-underline underline hover:underline
             transition-all hover:cursor-pointer ">Visit</Link>
             <p className="text-center">A Responsive Web App for a startup company that used to sell pens, pencils and notebooks that utilized Shopify&apos;s backend servers and Liquid templating language <br/>
-              <span className="text-red-500">That's been shutdown</span>
+              <span className="text-red-500">That&apos;s been shutdown</span>
               </p>
             </div> 
           </div>
