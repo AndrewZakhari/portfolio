@@ -22,7 +22,7 @@ const Projects = () => {
           { view &&
           <>
         <h1 className="text-red-500 bg-black font-primary text-5xl text-center animate-fadeIn py-10">Projects</h1>
-        <div className="bg-black text-white text-2xl pb-11 md:flex-col md:items-center lg:flex-nowrap flex-wrap font-primary flex justify-around">
+        <div className="bg-black text-white text-2xl pb-11 md:flex-col md:items-center lg:flex-row lg:flex-nowrap flex-wrap font-primary flex justify-around">
             
             <div  className="flex flex-col items-center  transition-all duration-500 gap-5 animate-slideIn2sRev 
              border-green-500 w-full lg:w-1/3 md:w-3/4 lg:border-transparent border-b-2 border-opacity-50 py-5 lg:p-2 hover:border-green-500">
@@ -87,7 +87,7 @@ const Projects = () => {
             <Link target="_blank" href="https://3ajeeeba.com" className="text-md text-red-500 lg:no-underline underline hover:underline
             transition-all hover:cursor-pointer ">Visit</Link>
             <p className="text-center">A Responsive Web App for a startup company that used to sell pens, pencils and notebooks that utilized Shopify&apos;s backend servers and Liquid templating language <br/>
-              <span className="text-red-500">That's been shutdown</span>
+              <span className="text-red-500">That&apos;s been shutdown</span>
               </p>
             </div> 
           </div>
