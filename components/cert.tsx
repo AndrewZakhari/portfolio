@@ -16,6 +16,10 @@ export default function Cert() {
                 <h1 className="text-3xl py-2 text-yellow-300">Back End from FCC Certification</h1>
                 <Image alt="" src="/backCert.jpg" width="464" height="308" />
             </div>
+             <div className="flex mb-10 px-4 lg:px-0 flex-col lg:w-1/3 animate-slideIn2sRev border-b-2 border-transparent hover:border-green-500 py-7 trnasition-all duration-500 items-center">
+                <h1 className="text-3xl py-2 text-yellow-300">MERN Stack Developer Certification</h1>
+                <Image className="h-[308px]" alt="" src="/mernCert.png" width="464" height="308" />
+            </div>
             <div className="flex mb-10 px-4 lg:px-0 flex-col lg:w-1/3 animate-slideIn2sRev border-b-2 border-transparent hover:border-green-500 py-7 trnasition-all duration-500 items-center">
                 <h1 className="text-3xl py-2 text-yellow-300">C2 English from EFSET Certification</h1>
                 <Image className="h-[308px]" alt="" src="/englishCert.png" width="464" height="308" />
