@@ -15,8 +15,8 @@ const Contact = () => {
                Hi, I am 
                <Link className="text-yellow-300 px-2" target="_blank" href="https://github.com/AndrewZakhari">Andrew Zakhari</Link>
                 and I am a Full-Stack Web Developer and I am studying Computer Science in Helwan University / Egypt ,<br/>
-                 I have 3 years of expeirence in web development.<br/>
-                 Using Technologies like Next js , React js , Tailwind CSS , TypeScript , Nodejs, Django and Flask to develope reliable and scalable web apps <br/>
+                 I have 3 years of experience in web development.<br/>
+                 Using Technologies like Next js, React js, Tailwind CSS, TypeScript, Nodejs, Django and Flask to develop reliable and scalable web apps <br/>
                 and in a field that is developing fast I am eager to learn and grow.<br/>   
             To Contact me email me at:
              <Link className="text-yellow-300" target="_blank" href="mailto:andrewzakhari5@gmail.com">andrewzakhari5@gmail.com</Link>
