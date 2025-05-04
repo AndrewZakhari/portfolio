@@ -10,16 +10,18 @@ const Contact = () => {
             <h1 className="text-5xl text-red-500 animate-fadeIn text-center py-10">
               About & Contact Info
             </h1>
-           <div className="border-green-500 border-2 animate-slideIn2s p-6 text-2xl ">
+           <div className="border-green-500 border-2 max-w-3/4 animate-slideIn2s p-6 text-2xl ">
             <p className="text-center">
-               Hi, I am 
-               <Link className="text-yellow-300 px-2" target="_blank" href="https://github.com/AndrewZakhari">Andrew Zakhari</Link>
-                and I am a Full-Stack Web Developer and I am studying Computer Science in Helwan University / Egypt ,<br/>
-                 I have 3 years of experience in web development.<br/>
-                 Using Technologies like Next js, React js, Tailwind CSS, TypeScript, Nodejs, Django and Flask to develop reliable and scalable web apps <br/>
-                and in a field that is developing fast I am eager to learn and grow.<br/>   
-            To Contact me email me at:
-             <Link className="text-yellow-300" target="_blank" href="mailto:andrewzakhari5@gmail.com">andrewzakhari5@gmail.com</Link>
+                I'm Andrew Zakhari, a versatile Full-Stack Developer and AI Prompt Engineer currently creating impact at Outlier. With over 5 years of experience bridging the worlds of web development and artificial intelligence, I specialize in building intuitive, high-performance applications that solve real problems.
+
+My technical toolkit includes modern frameworks and technologies such as Next.js, React, TypeScript, Node.js, and Tailwind CSS for frontend excellence, complemented by Django and Flask for robust backend solutions. This combination allows me to architect complete solutions from concept to deployment.
+
+As an AI Prompt Engineer, I've developed cutting-edge interfaces for AI applications while training and fine-tuning models to achieve measurable improvements in accuracy and performance. I thrive in the dynamic intersection of user experience design and artificial intelligence.
+
+In an industry that evolves daily, I maintain a growth mindset—constantly learning, adapting, and embracing new challenges. My work is driven by a passion for creating technology that's not just functional, but delightful to use.
+
+Let's connect and explore how we might work together to build something remarkable.
+             <Link className="text-yellow-300" target="_blank" href="mailto:andrewzakhari5@gmail.com"> andrewzakhari5@gmail.com</Link>
              <br/>
             or DM me at  
             <Link target="_blank" className="text-yellow-300" href="https://wa.me/+201019303179"> Whatsapp </Link>

@@ -64,8 +64,11 @@ const Skills = () => {
                     <p>Expert</p>
                     </div>
                 </div>
-                <div>
-
+                  <div className="flex justify-between items-center lg:gap-12">
+                    <h1>Prompt Engineering</h1>         
+                    <div className="lg:w-60 border border-green-500 h-fit w-52 flex justify-center bg-green-500 text-black">
+                    <p>Expert</p>
+                    </div> 
                 </div>
             </div>            
             </>
