@@ -43,7 +43,7 @@ const Projects = () => {
             transition-all hover:cursor-pointer ">Visit</Link>
             <p className="text-center">A web app for a game prompted and created to train cutting edge AI models.</p>
             </div>
-            <div className="flex w-full md:w-3/4 flex-col items-center tranistion-all border-opacity-50 duration-500 gap-5 animate-fadeIn
+            <div className="flex w-full md:w-3/4 flex-col items-center tranistion-all border-opacity-50 duration-500 gap-5 animate-slideIn2s
              border-green-500 lg:w-1/3 lg:border-transparent border-b-2 py-5 lg:p-2 hover:border-green-500">
             <h1 className="text-3xl  text-yellow-300">RedisDB</h1>
             <Image className="lg:pb-2 lg:h-[300px]" alt="" src="/redis.png" width="200" height="300"/>
