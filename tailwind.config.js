@@ -16,6 +16,11 @@ module.exports = {
         primary: "terminal"
       },
       keyframes: {
+        draw: {
+          'to': {
+            strokeDashoffset: '0'
+          }
+        },
         slideIn: {
           '0%': {
             transform: 'translate(100%, 0px)',
@@ -54,6 +59,7 @@ module.exports = {
         
       },
       animation: {
+        'draw-frame': 'draw 5s ease-in-out forwards',
         slideIn2s : "slideIn 2s ease-in-out ",
         slideIn3s: "slideIn 3s ease-in-out",
         slideIn1s: "slideIn 1s ease-in-out",
